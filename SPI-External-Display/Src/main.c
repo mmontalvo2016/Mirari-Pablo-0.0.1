@@ -56,7 +56,7 @@ static void MX_USART1_UART_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_NVIC_Init(void);
 
-/* USER CODE BEGIN PFP */
+/* USER CODE BEGIN PFP */ 
 /* Private function prototypes -----------------------------------------------*/
 
 /* USER CODE END PFP */
