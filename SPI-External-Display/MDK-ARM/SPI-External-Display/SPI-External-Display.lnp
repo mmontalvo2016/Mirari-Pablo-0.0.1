@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"spi-external-display\system_stm32f4xx.o"
+"spi-external-display\main.o"
+"spi-external-display\stm32f4xx_hal_msp.o"
+"spi-external-display\stm32f4xx_it.o"
+"spi-external-display\stm32f4xx_hal_tim_ex.o"
+"spi-external-display\stm32f4xx_hal_dma.o"
+"spi-external-display\stm32f4xx_hal_tim.o"
+"spi-external-display\stm32f4xx_hal_gpio.o"
+"spi-external-display\stm32f4xx_hal_rcc_ex.o"
+"spi-external-display\stm32f4xx_hal_rcc.o"
+"spi-external-display\stm32f4xx_hal_flash_ramfunc.o"
+"spi-external-display\stm32f4xx_hal.o"
+"spi-external-display\stm32f4xx_hal_pwr_ex.o"
+"spi-external-display\stm32f4xx_hal_flash_ex.o"
+"spi-external-display\stm32f4xx_hal_spi.o"
+"spi-external-display\stm32f4xx_hal_flash.o"
+"spi-external-display\stm32f4xx_hal_uart.o"
+"spi-external-display\stm32f4xx_hal_dma_ex.o"
+"spi-external-display\stm32f4xx_hal_pwr.o"
+"spi-external-display\stm32f4xx_hal_cortex.o"
+"spi-external-display\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "SPI-External-Display\SPI-External-Display.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPI-External-Display.map" -o SPI-External-Display\SPI-External-Display.axf
