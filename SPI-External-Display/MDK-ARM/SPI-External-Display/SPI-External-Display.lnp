@@ -3,6 +3,7 @@
 "spi-external-display\main.o"
 "spi-external-display\stm32f4xx_hal_msp.o"
 "spi-external-display\stm32f4xx_it.o"
+"spi-external-display\mpico.o"
 "spi-external-display\stm32f4xx_hal_tim_ex.o"
 "spi-external-display\stm32f4xx_hal_dma.o"
 "spi-external-display\stm32f4xx_hal_tim.o"

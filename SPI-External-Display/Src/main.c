@@ -31,16 +31,15 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
+#include "mpico.c"
 #include "main.h"
 #include "stm32f4xx_hal.h"
-
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi1;
-
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
@@ -67,15 +66,7 @@ static void MX_NVIC_Init(void);
 
 int main(void)
 {
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration----------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+	HAL_Init();
 
   /* Configure the system clock */
   SystemClock_Config();
@@ -87,25 +78,8 @@ int main(void)
 
   /* Initialize interrupts */
   MX_NVIC_Init();
-
-  /* USER CODE BEGIN 2 */
-	HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-	HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-
-
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-  /* USER CODE END WHILE */
-
-  /* USER CODE BEGIN 3 */
-
-  }
-  /* USER CODE END 3 */
-
+	mpico();
+	
 }
 
 /** System Clock Configuration
