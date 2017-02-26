@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Mirari Pages
 
 You can use the [editor on GitHub](https://github.com/mmontalvo2016/Mirari-Pablo-0.0.1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

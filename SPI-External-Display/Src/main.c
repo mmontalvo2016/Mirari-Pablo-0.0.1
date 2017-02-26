@@ -31,9 +31,10 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
-#include "mpico.c"
+
 #include "main.h"
 #include "stm32f4xx_hal.h"
+#include "mpico.h"
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */

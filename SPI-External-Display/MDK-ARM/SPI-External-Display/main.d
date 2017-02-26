@@ -1,5 +1,4 @@
 spi-external-display\main.o: ../Src/main.c
-spi-external-display\main.o: ../Src/mpico.c
 spi-external-display\main.o: ../Inc/main.h
 spi-external-display\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 spi-external-display\main.o: ../Inc/stm32f4xx_hal_conf.h
@@ -30,3 +29,4 @@ spi-external-display\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_p
 spi-external-display\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 spi-external-display\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 spi-external-display\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+spi-external-display\main.o: ../Src/mpico.h
