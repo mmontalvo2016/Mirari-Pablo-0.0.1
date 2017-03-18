@@ -79,7 +79,7 @@ int main(void)
 
   /* Initialize interrupts */
   MX_NVIC_Init();
-	mpico();
+	mpico(hspi1);
 	
 }
 
