@@ -47,13 +47,13 @@ void getdeviceinfo(SPI_HandleTypeDef hspi){
 		HAL_SPI_Receive(&hspi, &Rx2, 1, 10);
 		HAL_SPI_Receive(&hspi, &Rx3, 1, 10);
 		HAL_SPI_Receive(&hspi, &Rx4, 1, 10);
-}
+		}
+}		
 /**
   * @brief  Inserts a delay time.
   * @param  nTime: specifies the delay time length, in 10 ms.
   * @retval None
   */
-}
 void Delay(__IO uint32_t nTime)
 {
   TimingDelay = nTime;
