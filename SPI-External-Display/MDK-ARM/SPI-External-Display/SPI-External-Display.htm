@@ -3,7 +3,7 @@
 <title>Static Call Graph - [SPI-External-Display\SPI-External-Display.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image SPI-External-Display\SPI-External-Display.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Fri Mar 17 22:14:36 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Mar 19 14:07:06 2017
 <BR><P>
 <H3>Maximum Stack Usage =        512 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -418,7 +418,7 @@ Global Symbols
 <P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.DebugMon_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[8f]"></a>Delay</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, main.o(i.Delay))
+<P><STRONG><a name="[8f]"></a>Delay</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, main.o(i.Delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Delay
 </UL>
 <BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpico
@@ -720,7 +720,7 @@ Global Symbols
 
 <P><STRONG><a name="[9b]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
-<P><STRONG><a name="[8b]"></a>getdeviceinfo</STRONG> (Thumb, 128 bytes, Stack size 48 bytes, main.o(i.getdeviceinfo))
+<P><STRONG><a name="[8b]"></a>getdeviceinfo</STRONG> (Thumb, 156 bytes, Stack size 48 bytes, main.o(i.getdeviceinfo))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = getdeviceinfo &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_CheckFlag_BSY &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
